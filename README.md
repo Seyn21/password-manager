@@ -153,4 +153,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **License:** Mentions that the project is open source (MIT License). If you are using a different license, you can change this section.
 - **Acknowledgments:** Credits the frameworks and libraries used in the project.
 
-You can customize any part of the `README.md` to better fit your project. If you plan to host it on GitHub, this file will be a helpful guide for anyone who clones your repository!
