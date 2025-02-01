@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Your Passwords</h1>
+    <ul>
+        {% for password in passwords %}
+            <li>Password: {{ password.password }}</li>
+        {% else %}
+            <li>No passwords saved yet.</li>
+        {% endfor %}
+    </ul>
+    <p><a href="{{ url_for('home') }}">Back to Home</a></p>
+    <p><a href="{{ url_for('logout') }}">Logout</a></p>
+</body>
+</html>
